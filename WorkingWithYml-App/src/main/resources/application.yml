@@ -1,0 +1,27 @@
+server:
+  port: 9695
+
+event-definitions:
+  name: application.yml
+  data-distribution:
+    data-fetch:
+      desc: "Hello data-fetch"
+      name: "NAME1"
+      Age: 18
+      salary: 12.3
+    data-download:
+      desc: "Hello data-download"
+      name: "NAME1"
+      Age: 18
+      salary: 12.3
+  generate-report:
+    trigger:
+      desc: "Hello generate-report"
+      name: "NAME1"
+      Age: 18
+      salary: 12.3
+    auto-trigger:
+      desc: "Hello auto-trigger"
+      name: "NAME1"
+      Age: 18
+      salary: 12.3
